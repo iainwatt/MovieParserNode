@@ -5,7 +5,8 @@ var fs = require('fs');
 
 
 let result = {
-    "character_name": ["line1", "line2"]
+    "SURGEON 1 (O.S.)": ["Is this the last one?", "There will be if it doesn't come off."],
+    "SURGEON 2 (O.S.)": ["God, what a mess... at least there's no gangrene.", "line2"],
 }
 
 try {

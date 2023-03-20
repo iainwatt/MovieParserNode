@@ -4,6 +4,10 @@ const port = 3000
 var fs = require('fs');
 
 
+let result = {
+    "character_name": ["line1", "line2"]
+}
+
 try {
     var data = fs.readFileSync('MovieScripts/dances_with_wolves.txt', 'utf8');
 } catch (e) {
